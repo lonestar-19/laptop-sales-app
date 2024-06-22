@@ -1,6 +1,6 @@
 import unittest
-from src.database import Database
-from src.models import Laptop, Customer, Order
+from app.database import Database
+from app.models import Laptop, Customer, Order
 
 class TestStore(unittest.TestCase):
 
