@@ -1,6 +1,6 @@
 import unittest
-from app.database import Database
-from app.models import Laptop, Customer, Order
+from app.database import Database # type: ignore
+from app.models import Laptop, Customer, Order  # type: ignore 
 
 class TestStore(unittest.TestCase):
 
